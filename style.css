@@ -1,0 +1,83 @@
+:root {
+--Purple-700: hsl(257, 40%, 49%);
+--Magenta-400: hsl(300, 69%, 71%);
+}
+
+*{
+
+}
+
+ body {
+    background-image: url(huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+    background-color: var(--Purple-700);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.conteiner {
+   display: flex;
+   width: 80%;
+   position: static;
+}
+
+.hud {
+    width: 90%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+   padding: 20px;
+   color: white;
+   gap: 10px;
+}
+
+.logo-img {
+   position: absolute;
+  top: 1px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+button {
+    width: 140px;
+    border-radius: 35px;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    box-shadow: 1px 1px 5px ;
+}
+
+.icons {
+    position: absolute;
+   bottom: 2px;
+   right: 15px;
+   font-size: 20px;
+   margin-bottom: 15px;
+}
+
+i {
+  color: aliceblue;
+   border: 2px solid white;
+   border-radius: 50%;
+   padding: 10px;
+
+}
+
+@media screen and (max-width:1333px) {
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+    .icons {
+         position: absolute;
+      bottom: 2px;
+      font-size: 20px;
+    }
+}
+
